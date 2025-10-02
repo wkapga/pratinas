@@ -2,166 +2,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pratinas Consulting | Strategic Clarity</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratinas Theater Arena</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            font-family: 'Cinzel', serif;
+            overflow: hidden;
+            height: 100vh;
+        }
 
-  <!-- Material Design Lite CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep-purple-amber.min.css">
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-  <!-- Classical Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        .title {
+            position: absolute;
+            top: 10%;
+            font-size: 4rem;
+            font-weight: 600;
+            color: #f4d03f;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+            letter-spacing: 0.3em;
+            z-index: 1000;
+        }
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Lora', 'Roboto', serif;
-      background: #f9f7f4 url('https://www.transparenttextures.com/patterns/paper-fibers.png') repeat; /* Subtle parchment texture */
-      color: #2c3e50;
-      line-height: 1.7;
-    }
+        .arena {
+            position: relative;
+            width: 600px;
+            height: 400px;
+        }
 
-    .mdl-layout__content {
-      padding: 24px;
-      text-align: center;
-    }
+        .block {
+            position: absolute;
+            background: linear-gradient(45deg, #8b4513, #a0522d);
+            border: 2px solid #654321;
+            border-radius: 4px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            opacity: 0;
+            transform: translateY(-100vh);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
 
-    .card-classical {
-      width: 100%;
-      max-width: 640px;
-      margin: 0 auto;
-      border-radius: 10px;
-      background: #ffffff;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-      overflow: hidden;
-      border: 1px solid #eae3da;
-    }
+        .block.dropped {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
-    .mdl-card__title {
-      background: linear-gradient(to bottom, #2c3e50, #1a2530);
-      color: #fff;
-      height: 160px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: left;
-      padding-left: 28px;
-    }
+        .contact-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(45deg, #f4d03f, #f7dc6f);
+            border: 3px solid #d4af37;
+            border-radius: 15px;
+            padding: 15px 30px;
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #8b4513;
+            cursor: pointer;
+            opacity: 0;
+            transition: all 0.5s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
 
-    .mdl-card__title h1 {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      margin: 0;
-      font-size: 2em;
-      letter-spacing: -0.5px;
-    }
+        .contact-button:hover {
+            background: linear-gradient(45deg, #f7dc6f, #f4d03f);
+            transform: translate(-50%, -50%) scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
 
-    .tagline {
-      font-family: 'Lora', serif;
-      font-size: 1.2em;
-      color: #c9b380;
-      margin: 8px 0 0 0;
-      font-style: italic;
-      display: block;
-    }
+        .contact-button.visible {
+            opacity: 1;
+        }
 
-    .mdl-card__supporting-text {
-      font-family: 'Lora', serif;
-      text-align: left;
-      color: #333;
-      padding: 24px;
-      font-size: 1.1em;
-    }
-
-    .mdl-card__actions {
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-      background: #f5f5f5;
-      border-top: 1px solid #eee;
-    }
-
-    .mdl-button {
-      background-color: #8e44ad !important; /* Deep purple (classical royalty) */
-      color: white !important;
-      margin: 10px auto;
-      width: 200px;
-      border-radius: 30px;
-      text-transform: none;
-      font-family: 'Lora', serif;
-      letter-spacing: 0.5px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
-    .mdl-button:hover {
-      background-color: #732d91 !important;
-    }
-
-    .icon-mask {
-      font-size: 48px;
-      color: #b8860b;
-      margin-bottom: 8px;
-    }
-
-    footer {
-      margin-top: 40px;
-      color: #7f8c8d;
-      font-family: 'Lora', serif;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 600px) {
-      .mdl-card__title h1 {
-        font-size: 1.7em;
-      }
-      .tagline {
-        font-size: 1.1em;
-      }
-    }
-  </style>
+        .podium {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 40px;
+            background: linear-gradient(45deg, #d4af37, #f4d03f);
+            border: 2px solid #b8860b;
+            border-radius: 8px 8px 0 0;
+        }
+    </style>
 </head>
 <body>
-
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title" style="font-family: 'Playfair Display', serif; color: #2c3e50;">Pratinas Consulting</span>
-        <div class="mdl-layout-spacer"></div>
-      </div>
-    </header>
-
-    <main class="mdl-layout__content">
-      <div class="mdl-card card-classical mdl-shadow--4dp">
-        <div class="mdl-card__title">
-          <h1>Pratinas Consulting</h1>
-          <span class="tagline">Ancient wisdom for modern strategy. No tragedies.</span>
+    <div class="container">
+        <div class="title">PRATINAS</div>
+        <div class="arena" id="arena">
+            <div class="podium"></div>
         </div>
+        <a href="mailto:office@pratinas.com" class="contact-button" id="contactButton">Contact Us</a>
+    </div>
 
-        <div class="mdl-card__supporting-text">
-          <p>
-            We help businesses navigate complexity with clarity, inspired by the satyr plays of Pratinas — 
-            where heroes confront reality with wit, resilience, and a touch of irony.
-          </p>
-        </div>
+    <script>
+        class TheaterArena {
+            constructor() {
+                this.arena = document.getElementById('arena');
+                this.contactButton = document.getElementById('contactButton');
+                this.blocks = [];
+                this.currentBlock = 0;
+                this.totalBlocks = 60;
+                this.interval = 200; // 1 second
+                
+                this.createArenaBlocks();
+                this.startAnimation();
+            }
 
-        <div class="mdl-card__actions">
-          <i class="material-icons icon-mask" aria-hidden="true">theaters</i>
-          <a class="mdl-button mdl-js-button mdl-button--raised"
-             href="mailto:office@pratinas.com">
-            Begin Your Clarity
-          </a>
-        </div>
-      </div>
+            createArenaBlocks() {
+                const arenaWidth = 600;
+                const arenaHeight = 400;
+                const rows = 12;
+                const blocksPerRow = 5;
+                
+                for (let row = 0; row < rows; row++) {
+                    const rowWidth = arenaWidth - (row * 30);
+                    const rowHeight = 25;
+                    const startX = (arenaWidth - rowWidth) / 2;
+                    const y = arenaHeight - (row + 1) * 30;
+                    
+                    for (let i = 0; i < blocksPerRow; i++) {
+                        const block = document.createElement('div');
+                        block.className = 'block';
+                        
+                        const blockWidth = rowWidth / blocksPerRow - 4;
+                        const x = startX + (i * (rowWidth / blocksPerRow)) + 2;
+                        
+                        block.style.width = blockWidth + 'px';
+                        block.style.height = rowHeight + 'px';
+                        block.style.left = x + 'px';
+                        block.style.bottom = (row * 30) + 'px';
+                        
+                        // Add some variation to the blocks
+                        const hue = 25 + Math.random() * 10;
+                        const lightness = 35 + Math.random() * 10;
+                        block.style.background = `linear-gradient(45deg, hsl(${hue}, 60%, ${lightness}%), hsl(${hue}, 60%, ${lightness + 5}%))`;
+                        
+                        this.arena.appendChild(block);
+                        this.blocks.push(block);
+                    }
+                }
+                
+                // Shuffle blocks for random drop order
+                this.shuffleArray(this.blocks);
+            }
 
-      <footer>
-        &copy; 2025 Pratinas Consulting. Inspired by classical thought.
-      </footer>
-    </main>
-  </div>
+            shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            }
 
-  <!-- Material Design Lite JS -->
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            startAnimation() {
+                const dropInterval = setInterval(() => {
+                    if (this.currentBlock < this.blocks.length) {
+                        this.blocks[this.currentBlock].classList.add('dropped');
+                        this.currentBlock++;
+                    } else {
+                        clearInterval(dropInterval);
+                        // Show contact button after arena is complete
+                        setTimeout(() => {
+                            this.contactButton.classList.add('visible');
+                        }, 1000);
+                    }
+                }, this.interval);
+            }
+        }
+
+        // Initialize the theater arena when page loads
+        window.addEventListener('load', () => {
+            new TheaterArena();
+        });
+
+        // Add some sparkle effects
+        function createSparkle() {
+            const sparkle = document.createElement('div');
+            sparkle.style.position = 'absolute';
+            sparkle.style.width = '4px';
+            sparkle.style.height = '4px';
+            sparkle.style.background = '#f4d03f';
+            sparkle.style.borderRadius = '50%';
+            sparkle.style.left = Math.random() * 100 + 'vw';
+            sparkle.style.top = Math.random() * 100 + 'vh';
+            sparkle.style.opacity = '0';
+            sparkle.style.animation = 'sparkle 2s ease-in-out infinite';
+            sparkle.style.zIndex = '999';
+            
+            document.body.appendChild(sparkle);
+            
+            setTimeout(() => {
+                sparkle.remove();
+            }, 2000);
+        }
+
+        // Add sparkle animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes sparkle {
+                0%, 100% { opacity: 0; transform: scale(0); }
+                50% { opacity: 1; transform: scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Create sparkles periodically
+        setInterval(createSparkle, 500);
+    </script>
 </body>
 </html>

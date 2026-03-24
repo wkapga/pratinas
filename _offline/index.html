@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="manifest" href="/_offline/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/_offline/icon-192.png" />
+  <link rel="stylesheet" href="/_offline/style.css" />
+
+  <title>Reise Offline</title>
+</head>
+
+<body>
+  <header class="topbar">
+    <div>
+      <div class="title">Reise‑Offline</div>
+      <div class="subtitle" id="syncState">Status: …</div>
+    </div>
+    <button class="btn" id="lockBtn" title="Sperren/Entsperren">🔒</button>
+  </header>
+
+  <main class="container" id="app" hidden>
+    <section class="card">
+      <h2>Notfall</h2>
+      <div class="grid2">
+        <a class="pill" href="tel:112">112 EU Notruf</a>
+        <a class="pill" href="tel:100">100 Polizei (GR)</a>
+        <a class="pill" href="tel:166">166 Rettung (GR)</a>
+        <a class="pill" href="tel:199">199 Feuerwehr (GR)</a>
+      </div>
+      <p class="muted">Tipp: Diese Seite einmal online öffnen → danach funktioniert sie offline.</p>
+    </section>
+
+    <section class="card">
+      <h2>Unterkünfte</h2>
+      <ul class="list">
+        <li><strong>Athen</strong> – Adresse, Check‑in Code, Hinweis „nur Barzahlung“</li>
+        <li><strong>Naxos</strong> – Adresse, Gastgebernummer</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Tickets / PDFs</h2>
+      <ul class="list">
+        <li><a href="/_offline/assets/tickets/ferry.pdf">Fähre PDF</a></li>
+        <li><a href="/_offline/assets/tickets/flight.pdf">Flug PDF</a></li>
+      </ul>
+      <p class="muted">QR‑Codes funktionieren offline, wenn PDFs vorher geladen wurden.</p>
+    </section>
+
+    <section class="card">
+      <h2>Links</h2>
+      <div class="grid2">
+        <a class="pill" href="https://maps.google.com" target="_blank" rel="noopener">Maps</a>
+        <a class="pill" href="/travel-log/">Travel‑Log</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Checkliste</h2>
+      <label class="check"><input type="checkbox" /> Pässe</label>
+      <label class="check"><input type="checkbox" /> Ladegeräte</label>
+      <label class="check"><input type="checkbox" /> Versicherungsnummer</label>
+    </section>
+  </main>
+
+  <!-- Simple locked screen -->
+  <div class="lockscreen" id="lockscreen">
+    <div class="lockcard">
+      <h1>🔐 Geschützt</h1>
+      <p class="muted">Passwort eingeben (leichtes Gate – kein „Bank‑Security“).</p>
+      <input id="pw" type="password" inputmode="text" placeholder="Passwort" />
+      <button class="btn primary" id="unlock">Entsperren</button>
+      <p class="muted small" id="lockHint"></p>
+    </div>
+  </div>
+
+  <script src="/_offline/app.js"></script>
+</body>
+</html>
+``

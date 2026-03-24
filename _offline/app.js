@@ -1,7 +1,7 @@
 // ====== 1) "Leichtes" Passwort-Gate ======
 // Setze hier euer gemeinsames Codewort.
 // Tipp: lieber ein Satz + Zahl (leicht zu merken): "Gyros-2026!"
-const PASSWORD = "Gyros-2026!";
+const PASSWORD = "Franzbranntwein";
 
 // Optional: bruteforce bremsen (nur UX)
 const MIN_DELAY_MS = 600;

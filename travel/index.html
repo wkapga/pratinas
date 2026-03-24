@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Travel Log</title>
+  <meta name="color-scheme" content="dark light" />
+  ./style.css
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">Travel Log</div>
+      <div class="subtitle" id="meta">Lädt…</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn" id="printBtn" title="Drucken / PDF">🖨️</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <input id="q" class="search" type="search" placeholder="Suchen (Ort, Highlight, Lowlight…)" />
+      <div class="hint">
+        Tipp: Log bearbeiten in <code>travel/travel-log.md</code> und pushen – Seite aktualisiert.
+      </div>
+    </section>
+
+    <section id="list" class="list">
+      <!-- Entries render here -->
+    </section>
+
+    <section id="rawWrap" class="panel muted" hidden>
+      <details>
+        <summary>Raw Markdown anzeigen</summary>
+        <pre id="raw" class="raw"></pre>
+      </details>
+    </section>
+  </main>
+
+  ./app.js</script>
+</body>
+</html>

@@ -2,13 +2,16 @@
 
 > Regel: pro Tag maximal 2 Minuten. Ein Wort reicht.
 
-## 2026-06-01 — Athen
-Wetter: 27°C, sonnig
+## 2026-04-01 — Wien
+Wetter: 16°C, bedeckt
 Stimmung: 8/10
 Kaffee: 3/5 — Freddo Espresso ok
 Kulinarik: 4/5 — Souvlaki + Tzatziki
 Highlight: Abendspaziergang Plaka
 Lowlight: Check-in hat gedauert
+km: 1
+hm: 100
+Kommentar: packen
 
 ## 2026-06-02 — Naxos (Hafen)
 Wetter: windig, 25°C

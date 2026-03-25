@@ -43,6 +43,9 @@ function parseEntries(md){
       kulinarik: fields["kulinarik"] || "",
       highlight: fields["highlight"] || "",
       lowlight: fields["lowlight"] || "",
+      km,
+      hm,
+      kommentar
       _text: block.toLowerCase()
     };
   });
@@ -84,6 +87,9 @@ function render(entries){
         <div class="field"><div class="label">Kulinarik</div><div class="value">${escapeHtml(e.kulinarik || "—")}</div></div>
         <div class="field"><div class="label">Highlight</div><div class="value">${escapeHtml(e.highlight || "—")}</div></div>
         <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.lowlight || "—")}</div></div>
+        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.km || "—")}</div></div>
+        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.hm || "—")}</div></div>
+        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.kommentar || "—")}</div></div>
       </div>
     `;
     listEl.appendChild(card);

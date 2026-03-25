@@ -43,9 +43,9 @@ function parseEntries(md){
       kulinarik: fields["kulinarik"] || "",
       highlight: fields["highlight"] || "",
       lowlight: fields["lowlight"] || "",
-      km,
-      hm,
-      kommentar
+      km: fields["km"] || "",
+      hm: fields["hm"] || "",
+      kommentar: fields["kommentar"] || "",
       _text: block.toLowerCase()
     };
   });
@@ -67,6 +67,8 @@ function render(entries){
     const badges = [];
     if (e.wetter) badges.push(`Wetter: ${escapeHtml(e.wetter)}`);
     if (e.stimmung) badges.push(`Stimmung: ${escapeHtml(e.stimmung)}`);
+    if (e.km) badges.push(`${escapeHtml(e.km)} km`);
+    if (e.hm) badges.push(`${escapeHtml(e.hm)} hm`);
 
     const card = document.createElement("article");
     card.className = "card";
@@ -87,10 +89,11 @@ function render(entries){
         <div class="field"><div class="label">Kulinarik</div><div class="value">${escapeHtml(e.kulinarik || "—")}</div></div>
         <div class="field"><div class="label">Highlight</div><div class="value">${escapeHtml(e.highlight || "—")}</div></div>
         <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.lowlight || "—")}</div></div>
-        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.km || "—")}</div></div>
-        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.hm || "—")}</div></div>
-        <div class="field"><div class="label">Lowlight</div><div class="value">${escapeHtml(e.kommentar || "—")}</div></div>
+        <div class="field"><div class="label">Kilometer</div><div class="value">${escapeHtml(e.km || "—")}</div></div>
+        <div class="field"><div class="label">Höhenmeter</div><div class="value">${escapeHtml(e.hm || "—")}</div></div>
       </div>
+
+      ${e.kommentar ? `<div class="kommentar"><div class="label">Kommentar</div><div class="value">${escapeHtml(e.kommentar)}</div></div>` : ""}
     `;
     listEl.appendChild(card);
   }

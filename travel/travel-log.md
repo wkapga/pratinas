@@ -7,6 +7,6 @@
 Wetter: wolkig, 17°C
 Stimmung: 9/10
 Kaffee: 5/5 — Frappe. Perfect in einer kleinen Ortschaft im Nirgendwo
-Kulinarik: 5/5 — Fisch direkt am Meer
+Kulinarik: tba
 Highlight: Königsgräber von Aigai
 Lowlight: Abflug vor 6:00

@@ -12,9 +12,9 @@ Highlight: Königsgräber von Aigai
 Lowlight: Abflug vor 6:00
 
 ## 2026-04-04 — Kalambaka bis Delphi
-Wetter: 
+Wetter: 10 bis 19. Etwas Regen
 Stimmung: 9/10
 Kaffee: 3/5 — Double Cappuccino leider mit Zucker bestellt
 Kulinarik: 
-Highlight: 
-Lowlight: 
+Highlight: Meteora, Delphi
+Lowlight: Parken

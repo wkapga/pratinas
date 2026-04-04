@@ -11,7 +11,7 @@ Kulinarik: kleines Lokal. Moussaka und co
 Highlight: Königsgräber von Aigai
 Lowlight: Abflug vor 6:00
 
-## 2026-04-04 - Kalambaka bis Delphi
+## 2026-04-04 — Kalambaka bis Delphi
 Wetter: 
 Stimmung: 9/10
 Kaffee: 3/5 — Double Cappuccino leider mit Zucker bestellt

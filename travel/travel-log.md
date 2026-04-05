@@ -6,7 +6,7 @@
 ## 2026-04-03 — Thessaloniki bis Kalambaka
 Wetter: wolkig, 17°C. am Abend Regen
 Stimmung: 9/10
-Kaffee: 5/5 — Frappe. Perfect in einer kleinen Ortschaft im Nirgendwo
+Kaffee: 5/5 — Frappe. Perfekt in einer kleinen Ortschaft im Nirgendwo
 Kulinarik: kleines Lokal. Moussaka und co
 Highlight: Königsgräber von Aigai
 Lowlight: Abflug vor 6:00
@@ -28,8 +28,8 @@ hm: 250
 Wetter: 12 bis 23. Regen und Sonne
 Stimmung: 9/10
 Kaffee: 2/5 — Frappe eher schwach
-Kulinarik: 
+Kulinarik: Herrliches Lamm, Strandlokal Xylokastro 
 Highlight: Korinth Ausgrabungen 
 Lowlight: Panne
-km: 1
+km: 8
 hm: 100

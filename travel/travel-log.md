@@ -22,3 +22,14 @@ Highlight: Meteora, Delphi
 Lowlight: Parken
 km: 12
 hm: 250
+
+
+## 2026-04-05 —  Galaxidis Patras Korinth 
+Wetter: 12 bis 23. Regen und Sonne
+Stimmung: 9/10
+Kaffee: 2/5 — Frappe eher schwach
+Kulinarik: 
+Highlight: Korinth Ausgrabungen 
+Lowlight: Panne
+km: 1
+hm: 100

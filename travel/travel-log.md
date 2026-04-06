@@ -33,3 +33,14 @@ Highlight: Korinth Ausgrabungen
 Lowlight: Panne
 km: 8
 hm: 100
+
+
+## 2026-04-06 —  Xylokastro bis Athen
+Wetter: warm und trocken. die Griechen in Daunenjacken
+Stimmung: 9/10
+Kaffee: 5/5 — in der Früh ein perfekter Frappe, zu Mittag dafür schwach
+Kulinarik: Lokumades 
+Highlight: Orthodoxe Messe
+Lowlight: Parken!!
+km: 12
+hm: 100

@@ -45,12 +45,11 @@ Lowlight: Parken!!
 km: 12
 hm: 100
 
-## 2026-04-07 —  Athen
+## 2026-04-07 —  Athen Museentag
 Wetter: warm und trocken
 Stimmung: 9/10
-Kaffee: 3/5 — in der Früh guter Cappuccino ums Eck
-Kulinarik: 
-Highlight: 
-Lowlight: 
-km: 
-hm: 100
+Kaffee: 3/5 — in der Früh guter Cappuccino ums Eck, Frappe war dann sein Geld (1,20) genau Wert
+Kulinarik: Souvlakitage sind gute Tage
+Highlight: Archäologisches Museum
+Lowlight: U-Bahn
+km: 10

@@ -44,3 +44,13 @@ Highlight: Orthodoxe Messe
 Lowlight: Parken!!
 km: 12
 hm: 100
+
+## 2026-04-07 —  Athen
+Wetter: warm und trocken
+Stimmung: 9/10
+Kaffee: 3/5 — in der Früh guter Cappuccino ums Eck
+Kulinarik: 
+Highlight: 
+Lowlight: 
+km: 
+hm: 100

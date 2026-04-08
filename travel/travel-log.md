@@ -53,3 +53,15 @@ Kulinarik: Souvlakitage sind gute Tage
 Highlight: Archäologisches Museum
 Lowlight: U-Bahn
 km: 10
+
+
+## 2026-04-08 — Athen - Naxos
+Wetter: Sonnig
+Stimmung: 6/10
+Kaffee: 4/5 — Cappuccino war gut
+Kulinarik: 
+Highlight:
+Lowlight: 
+km: 
+hm: 
+Kommentar: Transfertag

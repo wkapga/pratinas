@@ -59,9 +59,19 @@ km: 10
 Wetter: Sonnig
 Stimmung: 6/10
 Kaffee: 4/5 — Cappuccino war gut
-Kulinarik: 
-Highlight:
-Lowlight: 
-km: 
+Kulinarik: üppig am Hafen von Naxos
+Highlight: Kanasta gelernt 
+Lowlight: Fähre
+km: 9
 hm: 
 Kommentar: Transfertag
+
+## 2026-04-09 — Naxos - Berg Zeus
+Wetter: wolkig 
+Stimmung: 9/10
+Kaffee: 5/5 — Top Cappuccino 
+Kulinarik: 
+Highlight: Gipfelsturm
+Lowlight: 
+km: 10
+hm: 655

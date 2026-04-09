@@ -70,7 +70,7 @@ Kommentar: Transfertag
 Wetter: wolkig 
 Stimmung: 9/10
 Kaffee: 5/5 — Top Cappuccino 
-Kulinarik: 
+Kulinarik: Herrliches Moussaka im Bergdorf
 Highlight: Gipfelsturm
 Lowlight: 
 km: 10

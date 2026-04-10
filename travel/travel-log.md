@@ -72,6 +72,16 @@ Stimmung: 9/10
 Kaffee: 5/5 — Top Cappuccino 
 Kulinarik: Herrliches Moussaka im Bergdorf
 Highlight: Gipfelsturm
-Lowlight: 
+Lowlight: Knie
 km: 10
 hm: 655
+
+## 2026-04-10 — Naxos - das grüne Tal
+Wetter: 17 bewölkt 
+Stimmung: 9/10
+Kaffee: 2/5 — eher mäßig 
+Kulinarik: Gyros und Souvlaki
+Highlight: Unfassbar schöner Wanderweg
+Lowlight: Guter Kaffeplatz auf Urlaub
+km: 19
+hm: 550

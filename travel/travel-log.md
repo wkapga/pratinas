@@ -85,3 +85,13 @@ Highlight: Unfassbar schöner Wanderweg
 Lowlight: Guter Kaffeplatz auf Urlaub
 km: 19
 hm: 550
+
+## 2026-04-11 — Naxos - Kirchentour
+Wetter: 17 sonnig bis wolkig
+Stimmung: 9/10
+Kaffee: 5/5 — guter Cappuccino und feiner Frappe
+Kulinarik: Meeresfrüchte und Favabohnen.
+Highlight: Osternacht
+Lowlight: Muskeln
+km: 20
+hm: 450

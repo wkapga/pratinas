@@ -95,3 +95,13 @@ Highlight: Osternacht
 Lowlight: Muskeln
 km: 20
 hm: 450
+
+## 2026-04-12 — Naxos - fruchtbare Ebene
+Wetter: 19 bewölkt
+Stimmung: 9/10
+Kaffee: 4/5 — guter Cappuccino, passabler Frape
+Kulinarik: Mittagesserl
+Highlight: Tempel des Apollon
+Lowlight: Navigationsdesaster 
+km: 17
+hm: 350

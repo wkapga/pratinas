@@ -105,3 +105,13 @@ Highlight: Tempel des Apollon
 Lowlight: Navigationsdesaster 
 km: 17
 hm: 350
+
+## 2026-04-13 — Naxos - die verflixte 13
+Wetter: Sonnig 20
+Stimmung: 3/10
+Kaffee: 4/5 — sehr guter Cappuccino und ordentlicher Frappe am Berg
+Kulinarik: 
+Highlight: Marmorstufen 
+Lowlight: In der Sackgasse geendet
+km: 
+hm: 

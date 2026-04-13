@@ -113,5 +113,6 @@ Kaffee: 4/5 — sehr guter Cappuccino und ordentlicher Frappe am Berg
 Kulinarik: 
 Highlight: Marmorstufen 
 Lowlight: In der Sackgasse geendet
-km: 
-hm: 
+km: 21
+hm: 800
+Kommentar: Weg war nicht zu finden im Tal

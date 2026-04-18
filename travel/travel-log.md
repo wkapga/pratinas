@@ -116,3 +116,51 @@ Lowlight: In der Sackgasse geendet
 km: 21
 hm: 800
 Kommentar: Weg war nicht zu finden im Tal
+
+
+## 2026-04-14 — Naxos - Amorgos
+Wetter: zuerst Warm, am Band gefroren
+Stimmung: 4/10
+Kaffee: 3/5 — war ok
+Kulinarik: die Ziege war nix
+Highlight: urige Fähre
+Lowlight: die Ziege
+km: 5
+Kommentar: Transfertage. Pensionistenpaar Gisi und Hartmut kennengelernt 
+
+## 2026-04-15 — Amorgos - Überquerung nach Eagiali 
+Wetter: 17 bewölkt
+Stimmung: 9/10
+Kaffee: 5/5 — super Cappuccino vom Bäcker, uriger Frappe am Berg
+Kulinarik: Pasta mit Shrimps
+Highlight: Blick auf das Kloster
+Lowlight: die Schmerzen 
+km: 10
+hm: 400
+
+
+
+## 2026-04-16 — Amorgos - nix geht mwhr
+Wetter: Sturm, etwas Niederschlg
+Stimmung: 2/10
+Kaffee: 0/5 — kein Kaffee 
+Kulinarik: Sesamring 
+Highlight: Mexalen
+Lowlight: Ganzer Tag im Bett 
+km: 2
+hm: 50
+
+
+
+
+## 2026-04-16 — Amorgos - zu den Ruinen von Moni
+Wetter: 15 windig
+Stimmung: 6/10
+Kaffee: 5/5 — sehr guter Cappuccino im Cafe
+Kulinarik: Darmprobleme, es wird nicht gegessen
+Highlight: die Ruinen
+Lowlight: Fieber
+km: 21
+hm: 850
+
+

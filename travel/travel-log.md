@@ -154,7 +154,7 @@ km: 21
 hm: 850
 
 
-## 2026-04-17 — Amorgos - nix geht mwhr
+## 2026-04-17 — Amorgos - nix geht mehr
 Wetter: Sturm, etwas Niederschlg
 Stimmung: 2/10
 Kaffee: 0/5 — kein Kaffee 

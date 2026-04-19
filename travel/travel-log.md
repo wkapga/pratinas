@@ -140,16 +140,6 @@ hm: 400
 
 
 
-## 2026-04-16 — Amorgos - nix geht mwhr
-Wetter: Sturm, etwas Niederschlg
-Stimmung: 2/10
-Kaffee: 0/5 — kein Kaffee 
-Kulinarik: Sesamring 
-Highlight: Mexalen
-Lowlight: Ganzer Tag im Bett 
-km: 2
-hm: 50
-
 
 
 
@@ -161,6 +151,38 @@ Kulinarik: Darmprobleme, es wird nicht gegessen
 Highlight: die Ruinen
 Lowlight: Fieber
 km: 21
+hm: 850
+
+
+## 2026-04-17 — Amorgos - nix geht mwhr
+Wetter: Sturm, etwas Niederschlg
+Stimmung: 2/10
+Kaffee: 0/5 — kein Kaffee 
+Kulinarik: Sesamring 
+Highlight: Mexalen
+Lowlight: Ganzer Tag im Bett 
+km: 2
+hm: 50
+
+
+
+## 2026-04-18 — Amorgos - Trinos
+Wetter: sehr windig, Stress auf der Fähre 
+Stimmung: 3/10
+Kaffee: 3/5 — 4h auf Paros im Kaffeehaus halfen beim Gesund werden
+Kulinarik: Joghurt 
+Highlight: der Seegang
+Lowlight: auch der Seegang 
+km: 5
+
+## 2026-04-19 — Tinos - auf den Xomburgo
+Wetter: 16 sonnig, sehr windig
+Stimmung: 9/10
+Kaffee: 4/5 — guter Cappuccino am Hafen
+Kulinarik: endlich Leber
+Highlight: die Aussicht
+Lowlight: streckenweise üble Wege
+km: 16
 hm: 850
 
 

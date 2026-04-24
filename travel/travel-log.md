@@ -186,3 +186,24 @@ km: 16
 hm: 850
 
 
+## 2026-04-20 — Tinos - spektakuläre Landschaften 
+Wetter: 19 sonnig
+Stimmung: 9/10
+Kaffee: 1/5 — Nespresso pfui
+Kulinarik: herrlich Melanzani beim Wirten ums Eck
+Highlight: die Landschaft
+Lowlight: Hannes Kreislauf
+km: 15
+hm: 600
+
+## 2026-04-21 — Tinos - zwei tolle Wanderungen
+Wetter: 22 sonnig
+Stimmung: 9/10
+Kaffee: 5/5 — bester Cappuccino am Hafen
+Kulinarik: nochmal beim Wirten
+Highlight: Herr der Ringe Vibes
+Lowlight: die Spinnen
+km: 14
+hm: 750
+
+

@@ -218,7 +218,7 @@ km: 6
 hm: 0
 
 
-## 2026-04-23 — Tinos - die Treppen
+## 2026-04-23 — Andros - die Treppen
 Wetter: 10 windig nass
 Stimmung: 9/10
 Kaffee: 2/5 — Nach Museum ein schwaches Kaffeehaus erwischt

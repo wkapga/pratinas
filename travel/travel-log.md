@@ -207,3 +207,27 @@ km: 14
 hm: 750
 
 
+## 2026-04-22 — Tinos - Andros
+Wetter: 17 bewölkt 
+Stimmung: 9/10
+Kaffee: 4/5 — Hafen Tinos Cappuccino und Strand Batsi
+Kulinarik: Pizza in Batsi
+Highlight: Pausetag
+Lowlight: Zustand des Mietwagens
+km: 6
+hm: 0
+
+
+## 2026-04-23 — Tinos - die Treppen
+Wetter: 10 windig nass
+Stimmung: 9/10
+Kaffee: 2/5 — Nach Museum ein schwaches Kaffeehaus erwischt
+Kulinarik: am Hafen beim Wirten
+Highlight: Natur und das Museum
+Lowlight: Kaffee
+km: 15.5
+hm: 700
+
+
+
+

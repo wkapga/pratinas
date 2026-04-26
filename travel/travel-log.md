@@ -229,5 +229,27 @@ km: 15.5
 hm: 700
 
 
+## 2026-04-24 — Andros - die große Runde
+Wetter: 17 sonnig, kalter Wind
+Stimmung: 9/10
+Kaffee: 4/5 — Kaffeehaus am Berg im Aschenregen
+Kulinarik: Souvlaki
+Highlight: die Route
+Lowlight: Brennesseln 
+km: 18
+hm: 950
+
+
+
+## 2026-04-25 — Andros - Batsi Runde
+Wetter: 16 überraschend kalt, windig
+Stimmung: 9/10
+Kaffee: 3/5 — Greek Coffee I'm Frost
+Kulinarik: Batsi Pizza
+Highlight: wunderschöner Anstieg
+Lowlight: schlecht markierter Weg
+km: 15.5
+
+
 
 

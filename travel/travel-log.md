@@ -244,11 +244,24 @@ hm: 950
 ## 2026-04-25 — Andros - Batsi Runde
 Wetter: 16 überraschend kalt, windig
 Stimmung: 9/10
-Kaffee: 3/5 — Greek Coffee I'm Frost
+Kaffee: 3/5 — Greek Coffee im Frost
 Kulinarik: Batsi Pizza
 Highlight: wunderschöner Anstieg
 Lowlight: schlecht markierter Weg
 km: 15.5
+hm: 800
+
+
+## 2026-04-26 — Andros - Gavri Runde
+Wetter: 20 sonnig 
+Stimmung: 9/10
+Kaffee: 5/5 — Fredi Cappuccino am Hafen
+Kulinarik: Gavri
+Highlight: super Aussicht bei Prachtwetter
+Lowlight: letzte Wanderung
+km: 13
+hm: 600
+Kommentar: Das war's! Am Abend nach Rafina, am Tag drauf Flug nach Hause.
 
 
 
